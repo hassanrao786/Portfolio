@@ -12,7 +12,7 @@ const HeroSection = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
@@ -22,23 +22,23 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
-                1000,
+                "Muhammad Hassan",
+                2000,
                 "Web Developer",
-                1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
-                1000,
+                2000,
+                "Rect & Next.js Expert",
+                2000,
+                "Mern Stack Developer",
+                2000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={10}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Your website is the heart of your business and if it's slow,
+            insecure, or clunky, you're handing away business every single day.
           </p>
           <div>
             <Link
