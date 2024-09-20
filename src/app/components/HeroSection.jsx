@@ -37,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Your website is the heart of your business and if it's slow,
-            insecure, or clunky, you're handing away business every single day.
+            Your website is the heart of your business and if it&apos;s slow,
+            insecure, or clunky, you&apos;re handing away business every single day.
           </p>
           <div>
             <Link
